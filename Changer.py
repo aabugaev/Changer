@@ -60,6 +60,8 @@ Changes_df = pd.read_excel(Changes_File_Name)
 Source_File_Name = str(input("Please give the name of the file where you want to bring changes.\n"))
 Source_df = pd.read_excel(Source_File_Name)
 
+#Раскомментировать строку ниже, если в документе есть пустые строки. Внимание: Все значения сразу станут строковыми!
+#Source_df = Source_df.fillna("")
 
 # In[101]:
 
